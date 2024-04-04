@@ -1,7 +1,6 @@
 var mark = 67;
-const passMark = 50;
 
-if(mark < passMark){
+if(mark < 50){
     console.log("Sorry you failed with " + mark );
 }
 else if ( mark >= 50 && mark < 75)
