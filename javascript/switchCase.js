@@ -11,8 +11,8 @@ const operator = prompt('Enter operator (+,-,* or /)  ');
 
 //accept an operand input
 
-const num1 = parseFloat(prompt('Enter number 1: '));
-const num2 = parseFloat(prompt('Enter number 2: '));
+const num1 = parseFloat(prompt('Enter number one: '));
+const num2 = parseFloat(prompt('Enter number two: '));
 
 switch(operator) {
     case '+':
